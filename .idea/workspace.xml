@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6a4e927-f836-4e3b-8df0-122769bb60b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Adicionales/Aderezo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Adicionales/Aderezo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Leche/LecheDescremada.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Leche/LecheDescremada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Leche/LecheDeslactosada.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Leche/LecheDeslactosada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Leche/LecheEntera.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Leche/LecheEntera.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Postres/Helado.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Postres/Helado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Postres/Pastel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Postres/Pastel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Principal/Sistema.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Principal/Sistema.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Procesos/ManejadorDeLeche.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Procesos/ManejadorDeLeche.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Procesos/OperacionesAderezo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Procesos/OperacionesAderezo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal/Sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal/Sistema.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tleARs8i9FZtAbkhO2poWEsQkj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6a4e927-f836-4e3b-8df0-122769bb60b3" name="Default Changelist" comment="" />
+      <created>1623347959809</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623347959809</updated>
+    </task>
+    <servers />
+  </component>
+</project>
