@@ -17,7 +17,7 @@ faltando al OCP. para solucion se hace una interfaz que englobe estos dos metodo
 ![image](https://user-images.githubusercontent.com/70306437/121587704-b627ca00-c9fa-11eb-9711-f444c4c8bb9c.png)
 
 
-5.1 El eeror era que mostraba una excepcion en el tipo de leche al ser pastel.
+5.1 El error era que mostraba una excepcion en el tipo de leche al ser pastel.
 ![image](https://user-images.githubusercontent.com/77079653/121602653-41aa5680-ca0d-11eb-8e0c-1b89f292efb4.png)
 ![image](https://user-images.githubusercontent.com/77079653/121602729-5dadf800-ca0d-11eb-8d93-b6ef5bbb71ab.png)
 
