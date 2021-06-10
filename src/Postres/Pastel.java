@@ -7,12 +7,13 @@ package Postres;
 
 import java.util.ArrayList;
 import Adicionales.Aderezo;
+import Procesos.manipuladorValores;
 
 /**
  *
  * @author Pedro Mendoza
  */
-public class Pastel{
+public class Pastel implements manipuladorValores{
     private String sabor;
     private double precioParcial;
     private ArrayList<Aderezo> aderezos;
