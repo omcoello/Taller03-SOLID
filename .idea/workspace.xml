@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6a4e927-f836-4e3b-8df0-122769bb60b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build/classes/.netbeans_automatic_build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/.netbeans_update_resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Adicionales/Aderezo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Adicionales/Aderezo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Leche/LecheDescremada.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Leche/LecheDescremada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Leche/LecheDeslactosada.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Leche/LecheDeslactosada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Leche/LecheEntera.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Leche/LecheEntera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Postres/Helado.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Postres/Helado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Postres/Pastel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Postres/Pastel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Principal/Sistema.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Principal/Sistema.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Procesos/ManejadorDeLeche.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Procesos/ManejadorDeLeche.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Procesos/OperacionesAderezo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Procesos/OperacionesAderezo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal/Sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal/Sistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +22,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/TrainingProject" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c6a4e927-f836-4e3b-8df0-122769bb60b3" name="Default Changelist" comment="" />

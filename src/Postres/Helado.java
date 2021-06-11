@@ -12,36 +12,44 @@ import Adicionales.Aderezo;
  *
  * @author Pedro Mendoza
  */
-public class Helado{
-    private String sabor;
-    private double precioParcial;
-    private ArrayList<Aderezo> aderezos;
+public class Helado extends Postre implements ManipularAderezo{
     
-    public Helado(String sabor){
-        aderezos= new ArrayList<>();
-        this.sabor=sabor;
-        this.precioParcial = 7.85;
+    public Helado(String sabor, double precioParcial, ArrayList<Aderezo> aderezos){
+        super(sabor, precioParcial,aderezos);
+    }
+    
+    public Helado(){
+        super();
+        setPrecioParcial(7.85);
     }
     
     public double calcularPrecioFinal(){
         double precioFinal;
-        precioFinal=(precioParcial+(precioParcial*0.12))+(aderezos.size()*0.50);
+        precioFinal=(getPrecioParcial()+(getPrecioParcial()*0.12))+(getAderezos().size()*0.50);
         return precioFinal;
     }
-
-    public ArrayList<Aderezo> getAderezos() {
-        return aderezos;
-    }
+    
 
     @Override
     public String toString() {
-        return "Helado{" + "sabor=" + sabor + ", precioParcial=" + precioParcial + ", aderezos=" + aderezos + '}';
+        return "Helado{" + "sabor=" + getSabor() + ", precioParcial=" + getPrecioParcial() + ", aderezos=" + getAderezos() + '}';
     }
     
     public String showPrecioFinal(){
         return "Precio Final: $ " + calcularPrecioFinal();
     }
-    
-    
-    
+
+    @Override
+    public void anadirAderezo(Object postre, Aderezo aderezo) {
+        Helado helado = (Helado) postre;
+        helado.getAderezos().add(aderezo);
+    }
+
+    @Override
+    public void quitarAderezo(Object postre, Aderezo aderezo) {
+        Helado helado = (Helado) postre;
+        helado.getAderezos().remove(aderezo);
+    }
+
+      
 }
