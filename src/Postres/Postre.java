@@ -16,13 +16,12 @@ public class Postre {
     public Postre() {
         super();
     }
-
-    public Postre(String sabor, double precioParcial, ArrayList<Aderezo> aderezos) {
+    
+    public Postre(String sabor){
         this.sabor = sabor;
-        this.precioParcial = precioParcial;
-        this.aderezos = aderezos;
-    }
-
+        this.precioParcial = 0;
+        aderezos = new ArrayList<>();
+    }          
 
     public void setSabor(String sabor) {
         this.sabor = sabor;
@@ -46,29 +45,5 @@ public class Postre {
     public ArrayList<Aderezo> getAderezos() {
         return aderezos;
     }
-/*
     
-    public void anadirAderezoHelado(Object postre, Aderezo aderezo) {
-        if (postre.getClass() == Pastel.class) {
-            Pastel.getAderezos().add(aderezo);
-        } else {
-            Helado.getAderezos().add(aderezo);
-        }
-
-    }
-
-    
-
-    public static void quitarAderezoHelado(Helado helado, Aderezo aderezo) {
-        helado.getAderezos().remove(aderezo);
-    }
-
-    public static void anadirAderezoPastel(Pastel pastel, Aderezo aderezo) {
-        pastel.getAderezos().add(aderezo);
-    }
-
-    public static void quitarAderezoPastel(Pastel pastel, Aderezo aderezo) {
-        pastel.getAderezos().remove(aderezo);
-    }
-*/
 }

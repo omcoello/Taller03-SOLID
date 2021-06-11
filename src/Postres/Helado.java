@@ -12,16 +12,11 @@ import Procesos.manipuladorValores;
 
 public class Helado extends Postre implements ManipularAderezo, manipuladorValores{
 
-    
-    public Helado(String sabor, double precioParcial, ArrayList<Aderezo> aderezos){
-        super(sabor, precioParcial,aderezos);
-    }
-    
-    public Helado(){
-        super();
+    public Helado(String sabor){
+        super(sabor);
         setPrecioParcial(7.85);
     }
-    
+        
     @Override
     public double calcularPrecioFinal(){
         double precioFinal;

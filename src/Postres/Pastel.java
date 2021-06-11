@@ -14,6 +14,11 @@ public class Pastel extends Postre implements ManipularAderezo, manipuladorValor
         this.setPrecioParcial(15.55);
     }
 
+    public Pastel(String sabor) {
+        super(sabor);
+        this.setPrecioParcial(15.55);
+    }
+
     @Override
     public double calcularPrecioFinal() {
         double precioFinal;
