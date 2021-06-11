@@ -70,8 +70,15 @@ public class Sistema {
             //Agregando frutilla
             postre.anadirAderezo(postre,aderezos.get(1));
             System.out.println(postre);
-            mnj_leche.cambiarTipoLeche(new LecheDescremada(), postre);            
-            System.out.println(postre.showPrecioFinal(postre));
+            mnj_leche.cambiarTipoLeche(new LecheDescremada(), postre);  
+            
+            if(postre instanceof Pastel){
+                Pastel pastel = (Pastel) postre;
+            System.out.println(pastel.showPrecioFinal());
+            }else{
+                Helado helado = (Helado) postre;
+            System.out.println(helado.showPrecioFinal());    
+            }
         });        
         
     }
