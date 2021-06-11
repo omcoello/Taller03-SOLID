@@ -1,13 +1,12 @@
 package Postres;
 
-import Adicionales.Aderezo;
 import Procesos.manipuladorValores;
 
 /**
  *
  * @author Pedro Mendoza
  */
-public class Pastel extends Postre implements ManipularAderezo, manipuladorValores {
+public class Pastel extends Postre implements manipuladorValores {
 
     public Pastel() {
         super();
@@ -34,18 +33,6 @@ public class Pastel extends Postre implements ManipularAderezo, manipuladorValor
     @Override
     public String showPrecioFinal() {
         return "Precio Final: $ " + calcularPrecioFinal();
-    }
-
-    @Override
-    public void anadirAderezo(Object postre, Aderezo aderezo) {
-        Pastel pastel = (Pastel) postre;
-        pastel.getAderezos().add(aderezo);
-    }
-
-    @Override
-    public void quitarAderezo(Object postre, Aderezo aderezo) {
-        Pastel pastel = (Pastel) postre;
-        pastel.getAderezos().remove(aderezo);
     }
 
 }

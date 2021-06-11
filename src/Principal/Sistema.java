@@ -1,13 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Principal;
 import Adicionales.Aderezo;
 import Postres.*;
 import Procesos.*;
 import Leche.*;
+import java.util.ArrayList;
 /**
  *
  * @author djurado
@@ -45,7 +41,7 @@ public class Sistema {
         // a ambos agregarles CREMA y FRUTILLAS
         // y cambiar el tipo de leche por Leche Deslactosada
         ArrayList<Postre> arrPostres = new ArrayList<>();
-        ManejadorDeLeche mnj_leche = new ManejadorDeLeche(new LecheDescremada());
+        //ManejadorDeLeche mnj_leche = new ManejadorDeLeche(new LecheDescremada());
         
         // Producir Helado
         Postre helado_vainilla = new Helado("Vainilla");
@@ -55,12 +51,14 @@ public class Sistema {
         arrPostres.add(pastel_chocolate);
         
         arrPostres.forEach(postre -> {
-            postre.addAderezos(new Crema());
-            postre.addAderezos(new Frutilla());
+            
+            postre.anadirAderezo(postre,new Crema());
+            postre.anadirAderezo(postre,new Frutilla());
             System.out.println(postre);
             mnj_leche.cambiarTipoLeche(postre);
             System.out.println(ManejadorDePrecio.showPrecioFinal(postre));
         });        
         
     }
+}
 

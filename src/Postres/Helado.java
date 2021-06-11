@@ -10,7 +10,7 @@ import Procesos.manipuladorValores;
  * @author Pedro Mendoza
  */
 
-public class Helado extends Postre implements ManipularAderezo, manipuladorValores{
+public class Helado extends Postre implements manipuladorValores{
 
     public Helado(String sabor){
         super(sabor);
@@ -34,18 +34,5 @@ public class Helado extends Postre implements ManipularAderezo, manipuladorValor
     public String showPrecioFinal(){
         return "Precio Final: $ " + calcularPrecioFinal();
     }
-
-    @Override
-    public void anadirAderezo(Object postre, Aderezo aderezo) {
-        Helado helado = (Helado) postre;
-        helado.getAderezos().add(aderezo);
-    }
-
-    @Override
-    public void quitarAderezo(Object postre, Aderezo aderezo) {
-        Helado helado = (Helado) postre;
-        helado.getAderezos().remove(aderezo);
-    }
-
-      
+         
 }
