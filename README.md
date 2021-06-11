@@ -1,7 +1,7 @@
 # Taller03-SOLID
 
-1. La clase Helado y Pastel hacen exactamente lo mismo y tiene las mismas variables pero a futuro pueden variar
-2. 
+1. La clase Helado y Pastel hacen exactamente lo mismo y tiene las mismas variables pero a futuro estos metodos pueden cambiar por lo que se genero dos interfaces, una para el area financiera y otra para la gestion de aderezos. Se violaba el principio de SRP ya que la clase Helado y Pastel no se enfrascaban en tener la info si no tambien en solucionar problemas finacieros y de gestion de aderezos. Ademas, se violaba el principio de ocp el cual se resolvio creando las interfaces para generalizar la gestion de aderezos tanto de helado como de pastel.
+
 ![image](https://user-images.githubusercontent.com/75048588/121569061-03e60780-c9e6-11eb-96f3-9b7d32880463.png)
 
 2. SRP se esta violando porque ya se tiene la clase padre postre que puede implementar los metodos de anadirAderezo y quitarAderezo y la clase Postre tiene esa responsabilidad y no la clase opcion aderezo
