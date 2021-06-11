@@ -1,18 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Postres;
 
 import java.util.ArrayList;
 import Adicionales.Aderezo;
+import Procesos.manipuladorValores;
 
 /**
  *
  * @author Pedro Mendoza
  */
-public class Helado extends Postre implements ManipularAderezo{
+
+public class Helado extends Postre implements ManipularAderezo, manipuladorValores{
+
     
     public Helado(String sabor, double precioParcial, ArrayList<Aderezo> aderezos){
         super(sabor, precioParcial,aderezos);
@@ -23,6 +22,7 @@ public class Helado extends Postre implements ManipularAderezo{
         setPrecioParcial(7.85);
     }
     
+    @Override
     public double calcularPrecioFinal(){
         double precioFinal;
         precioFinal=(getPrecioParcial()+(getPrecioParcial()*0.12))+(getAderezos().size()*0.50);
@@ -35,6 +35,7 @@ public class Helado extends Postre implements ManipularAderezo{
         return "Helado{" + "sabor=" + getSabor() + ", precioParcial=" + getPrecioParcial() + ", aderezos=" + getAderezos() + '}';
     }
     
+    @Override
     public String showPrecioFinal(){
         return "Precio Final: $ " + calcularPrecioFinal();
     }
