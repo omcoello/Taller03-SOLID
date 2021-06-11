@@ -12,7 +12,9 @@ package Adicionales;
 public abstract class Aderezo {
     	public String nombre;
 	public abstract void setNombre(String nombre);
-	
+	public Aderezo(String nombre){
+            this.nombre = nombre;
+        }
 	@Override
 	public String toString() {
 		return "Aderezo [nombre=" + nombre.toUpperCase() + "]";

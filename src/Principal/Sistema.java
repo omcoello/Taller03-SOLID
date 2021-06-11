@@ -41,7 +41,7 @@ public class Sistema {
         // a ambos agregarles CREMA y FRUTILLAS
         // y cambiar el tipo de leche por Leche Deslactosada
         ArrayList<Postre> arrPostres = new ArrayList<>();
-        //ManejadorDeLeche mnj_leche = new ManejadorDeLeche(new LecheDescremada());
+        ManejadorDeLeche mnj_leche = new ManejadorDeLeche();
         
         // Producir Helado
         Postre helado_vainilla = new Helado("Vainilla");
@@ -50,13 +50,28 @@ public class Sistema {
         Postre pastel_chocolate = new Pastel("Chocolate");
         arrPostres.add(pastel_chocolate);
         
+        ArrayList<Aderezo> aderezos = new ArrayList<>();
+        aderezos.add(new Aderezo("Crema") {
+            @Override
+            public void setNombre(String nombre) {
+                this.nombre = nombre;
+            }
+        });
+        
+        aderezos.add(new Aderezo("Frutilla") {
+            @Override
+            public void setNombre(String nombre) {
+                this.nombre = nombre;
+            }
+        });
         arrPostres.forEach(postre -> {
-            
-            postre.anadirAderezo(postre,new Crema());
-            postre.anadirAderezo(postre,new Frutilla());
+            //Agregando crema
+            postre.anadirAderezo(postre,aderezos.get(0));
+            //Agregando frutilla
+            postre.anadirAderezo(postre,aderezos.get(1));
             System.out.println(postre);
-            mnj_leche.cambiarTipoLeche(postre);
-            System.out.println(ManejadorDePrecio.showPrecioFinal(postre));
+            mnj_leche.cambiarTipoLeche(new LecheDescremada(), postre);            
+            System.out.println(postre.showPrecioFinal(postre));
         });        
         
     }
