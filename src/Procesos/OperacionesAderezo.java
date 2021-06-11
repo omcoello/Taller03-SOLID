@@ -23,11 +23,11 @@ public class OperacionesAderezo {
         helado.getAderezos().remove(aderezo);
     }
     
-    public static void anadirAderezoPastel(Pastel pastel,Aderezo aderezo){
-        pastel.getAderezos().add(aderezo);
+    public static void anadirAderezoPastel(Pastel pastel,String aderezo){
+        pastel.getAderezos().add(aderezo.toUpperCase());
     }
     
-    public static void quitarAderezoPastel(Pastel pastel,Aderezo aderezo){
+    public static void quitarAderezoPastel(Pastel pastel,String aderezo){
         pastel.getAderezos().remove(aderezo);
     }
     

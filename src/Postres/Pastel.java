@@ -16,7 +16,7 @@ import Procesos.manipuladorValores;
 public class Pastel implements manipuladorValores{
     private String sabor;
     private double precioParcial;
-    private ArrayList<Aderezo> aderezos;
+    private ArrayList<String> aderezos;
     
     public Pastel(String sabor){
         aderezos= new ArrayList<>();
@@ -30,7 +30,7 @@ public class Pastel implements manipuladorValores{
         return precioFinal;
     }
 
-    public ArrayList<Aderezo> getAderezos() {
+    public ArrayList<String> getAderezos() {
         return aderezos;
     }
 
